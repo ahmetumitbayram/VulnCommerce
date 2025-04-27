@@ -4,7 +4,7 @@ require_once 'config.php';
 try {
     
     $conn = new PDO("mysql:host=" . DB_HOST, DB_USER, DB_PASS);
-    $conn->setAttribute
+    $conn->setAttribute;
 // OWASP önerilerine uygun hale getirildi.(PDO:
     
     
